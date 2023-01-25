@@ -1,0 +1,199 @@
+
+/*    ****  GENERAL ******/
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-color: #FFF9EC;
+	color: #0E0E00;
+}
+
+a {
+	color: #610300;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #97B1AB;
+}
+
+.card__paragraph {
+	padding: 0 .6rem;
+}
+
+
+
+
+
+/*     ***** HEADER  ******/
+.header {
+	padding: .2rem;
+	background-color: #610300;
+	color: #FFD700;
+	border: 2px solid #FFD700;
+
+}
+
+
+.header__title {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	border: solid 1px #FFD700;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: 0;
+}
+
+.date,
+.happydays {
+	display: block;
+	font-size: .9rem;
+	padding-left: .6rem;
+}
+
+
+
+
+
+/*       **** INTRO ****/
+.intro {
+	padding: 2rem 0;
+}
+
+.intro__paragraph_first {
+	margin-top: 0;
+}
+
+.intro__paragraph_last {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+/*    **** cards *****/
+.card__img {
+	margin: auto;
+	display: block;
+}
+
+.card {
+	align-items: center;
+	padding: 2rem 0;
+	border-bottom: 1px solid black;
+}
+
+.card:last-child {
+	border-bottom: 0;
+}
+
+
+
+
+
+
+/*       **** FOOTER  ******/
+.footer {
+	padding: .4rem;
+	background-color: #610300;
+	color: #FFD700;
+	border: 3px solid #FFD700;
+}
+
+.footer__title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.footer__list {
+	text-decoration: none;	
+}
+
+.footer__list_item {
+	margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+/*      ***** DESKTOP VIEW ******/
+
+@media screen and (min-width: 800px) {
+	
+	.intro {
+		max-width: 90vw;
+		margin: 0 auto;
+	}
+
+	.main {
+		max-width: 75vw;
+		margin: 0 auto;
+	}
+	.card {
+		display: flex;
+		align-items: center;
+		background-color: #9F8F65;
+		margin-bottom: 1rem;
+		border: none;
+	}
+
+	.card {
+		padding: 1rem;
+	}
+
+	.img_container {
+		width: 50rem;
+	}
+
+	.card__img {
+
+		object-fit: cover;
+	}
+
+	.footer__list {
+		columns: 3;
+	}
+
+	a {
+	color: #FFD700;
+	text-decoration: none;
+	}
+
+	a:visited {
+		color: #FFF9EC;
+	}
+
+	a:hover {
+		color: #FFD700;
+		text-decoration: underline;
+	}
+}
+
+
+
+
+
+
+
+
+
+
